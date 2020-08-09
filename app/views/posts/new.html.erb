@@ -1,0 +1,22 @@
+<%= form_tag("/posts/create") do %>
+<div class="form">
+  <div class="box">
+    <span class="item-name">テキスト</span>
+
+    <div class="text-wrap">
+      <input type="text" name="title" value="">
+    </div>
+  </div>
+
+  <div class="box">
+    <span class="item-name">テキストエリア</span>
+
+    <div class="textarea-wrap">
+      <textarea name="content" rows="8" cols="80"></textarea>
+  </div>
+</div>
+
+<div class="submit-wrap">
+  <input type="submit" name="" value="送信">
+</div>
+<% end %>
