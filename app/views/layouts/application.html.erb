@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Snsll</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  <header>
+    <h1>ASAMOTO YUKI</h1>
+    <a href="/" class="btn-square">BUTTON</a>
+    <a href="/" class="btn-square">BUTTON</a>
+</header>
+    <%= yield %>
+
+<footer>
+　　<address>Copyright(C)ここに年 個人名or会社名,Allright Reserved.</address>
+</footer>
+  </body>
+</html>
